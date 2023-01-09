@@ -4,11 +4,11 @@ import { knexSnakeCaseMappers } from 'objection';
 
 export const config: { [key: string]: Knex.Config } = {
   development: {
-    client: 'postgresql',
+    client: process.env.CLIENT,
     connection: {
-      database: 'food_court',
-      user: 'postgres',
-      password: 'Star@Excel_0476',
+      database: process.env.DATABASE,
+      user: process.env.DATABASE_USER,
+      password: process.env.DATABASE_PASSWORD,
     },
     pool: {
       min: 0,
