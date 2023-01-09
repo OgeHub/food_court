@@ -14,8 +14,7 @@
 ## Routes
 
 ```
-**Local**: `Base_URL` = `http://localhost:3000/api`
-**Live**: `Base_URL` = `https://my-nodejs-typescript.onrender.com/api`
+**Local**: `Base_URL` = `http://localhost:3000`
 
 **Create addon**:
 POST `Base_URL`/brands/:brandId/addons
@@ -59,3 +58,5 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+_Updates coming soon_:
+- Live base url.
